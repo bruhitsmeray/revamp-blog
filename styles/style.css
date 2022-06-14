@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+    transition: background 0.2s linear;
+}
+
+body.dark{
+    background-color: rgb(40, 40, 40);
+}
+
+.container{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/*=================================*/
+/*==============Footer=============*/
+/*=================================*/
+
+footer {
+    padding: 40px;
+}
+
+footer p{
+    color: rgb(40, 40, 40);
+    text-align: center;
+}
+
+body.dark footer p {
+    color: #cacaca;
+    text-align: center;
+}
