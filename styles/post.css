@@ -72,6 +72,10 @@ body.dark .post{
     padding: 12px 14px;
 }
 
+.content p{
+    font-size: 14px;
+}
+
 .posttime{
     color: #5c5c5c;
     font-size: 0.8rem;
